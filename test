@@ -1,0 +1,4 @@
+n = [1, 2, 3, 4, 5]
+n.each do |number|
+     puts number unless number === “4”
+End
